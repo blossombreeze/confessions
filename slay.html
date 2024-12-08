@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨confessions✨</title>
+    <style>
+        /* Background and general styling */
+        body {
+            background: linear-gradient(135deg, #ffd1dc, #c2e9fb);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Cute border for the form container */
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+
+        /* Cute input fields and text area */
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #ffb6c1;
+            border-radius: 8px;
+            font-size: 1rem;
+            color: #555;
+            background-color: #fff;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        /* The submit button */
+        button {
+            background: #ff69b4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background: #ff1493;
+        }
+
+        /* Footer link for aesthetic touch */
+        .footer {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #ff69b4;
+        }
+
+        .footer a:hover {
+            color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨confess✨</h1>
+        <p>Have something to say? Drop me a ✨confession✨ here! 📝</p>
+        
+        <form action="mailto:hasiniparan@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name (Optional)" maxlength="50">
+            <textarea name="message" placeholder="Your message (Max 300 characters) ✨" maxlength="300" required></textarea>
+            <button type="submit">Send via Email</button>
+        </form>
+        
+        <p>Or DM me on Instagram: <a href="https://instagram.com/blossombreeze_456" target="_blank">🌸@blossombreeze_456🌸</a></p>
+
+        <div class="footer">
+            <p>i am glad you were brave to ✨confess✨!</p>
+        </div>
+    </div>
+</body>
+</html>
